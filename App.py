@@ -2,7 +2,7 @@
 num = int(input("Enter a number to check: "))
 
 # Check if the number is divisible by 2
-if num % 3 == 0:
+if num % 4 == 0:
     print(f"{num} is an Even number.")
 else:
     print(f"{num} is an Odd number.")
